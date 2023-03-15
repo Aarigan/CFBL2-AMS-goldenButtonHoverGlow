@@ -23,6 +23,7 @@ body {
   gap: 25px;
   border: none;
   outline: none;
+  /* outline-color: transparent; */
 }
 
 /* button 1 */
@@ -44,7 +45,9 @@ body {
   cursor: pointer;
 }
 
-.button1:hover {
+.button1:hover,
+.button1:focus,
+.button1:active {
   color: #f9e589;
   background: radial-gradient(ellipse farthest-corner at left top, #fff 0%, #f8f8a6 7%, #d8b965 25%, #5d4a1f 62%, #5c491d 100%),
               radial-gradient(ellipse farthest-corner at right bottom, #fdd832 0%, #f7b42f 10%, #9c7625 30%, #80672c 40%, transparent 80%);
